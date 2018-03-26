@@ -1,0 +1,8 @@
+{
+  "name": "Sam/SpecialMeasure",
+  "type": "magento2-module",
+  "autoload": {
+    "psr-4": { "Sam\\SpecialMeasure\\": "" },
+    "files": [ "registration.php" ]
+  }
+}

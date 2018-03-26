@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="checkout_cart_product_add_after">
+        <observer name="sam_specialmeasure_checkout_cart_product_add_after" instance="Sam\SpecialMeasure\Observer\AddProductObserver" />
+    </event>
+    <event name="sales_model_service_quote_submit_before">
+        <observer name="sam_specialmeasure_sales_model_service_quote_submit_before" instance="Sam\SpecialMeasure\Observer\QuoteSubmitBeforeObserver" />
+    </event>
+</config>
